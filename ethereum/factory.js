@@ -3,7 +3,7 @@ import CampaignFactory from "./build/CampaignFactory.json";
 
 const instace = new web3.eth.Contract(
   JSON.parse(CampaignFactory.interface),
-  "0x01E4cD93489d39B5b6afC05a92238316EB75FB37"
+  "0x70b95029030907a0139D99b4FD7725705f708462"
 );
 
 export default instace;

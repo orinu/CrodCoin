@@ -11,8 +11,8 @@ const CampaignNew = () => {
   const [loading, setLoading] = useState(false);
 
   const submitHandler = async (e) => {
-    setError("");
     e.preventDefault();
+    setError("");
     try {
       setLoading(true);
       const accounts = await web3.eth.getAccounts();
